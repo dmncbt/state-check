@@ -1,6 +1,6 @@
 const greenStates = [
   "AL", "AZ", "FL", "IL", "IN", "KS", "LA",
-  "MI", "MN", "MO", "MS", "NH", "OH", "OK",
+  "MI", "MO", "MS", "NH", "OH", "OK",
   "SC", "TN", "TX", "UT"
 ];
 
