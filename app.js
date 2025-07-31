@@ -2,12 +2,12 @@ const greenStates = [
   "AL", "AZ", "FL", "IL", "IN", "KS", "LA",
   "MI", "MO", "MS", "NH", "OH", "OK",
   "SC", "TN", "TX", "UT"
+  // MN removed
 ];
 
 const resultElement = document.getElementById("result");
 const inputField = document.getElementById("state");
 
-// Check State Function
 function check() {
   const inputtedState = inputField.value.trim().toUpperCase();
 
@@ -28,11 +28,5 @@ function check() {
     resultElement.className = "mt-6 text-xl font-semibold text-red-600 dark:text-red-400";
   }
 
-  // Clear input after result
   inputField.value = '';
-}
-
-// Toggle Dark Mode
-function toggleDarkMode() {
-  document.documentElement.classList.toggle('dark');
 }
