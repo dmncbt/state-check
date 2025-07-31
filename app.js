@@ -30,7 +30,6 @@ function check() {
 
   inputField.value = '';
 }
-
 // Toggle Dark Mode
 function toggleDarkMode() {
   document.documentElement.classList.toggle('dark');
